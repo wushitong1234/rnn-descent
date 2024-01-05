@@ -1,5 +1,6 @@
 #include <faiss/impl/AuxIndexStructures.h>
 #include <faiss/impl/DistanceComputer.h>
+#include <faiss/impl/FaissAssert.h>
 #include <rnn-descent/RNNDescent.h>
 
 #include <iostream>
