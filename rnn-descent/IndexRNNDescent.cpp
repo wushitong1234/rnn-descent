@@ -117,7 +117,7 @@ void IndexRNNDescent::search(idx_t n, const float* x, idx_t k, float* distances,
                            "search params not supported for this index");
     FAISS_THROW_IF_NOT_MSG(storage,
                            "Please use IndexNNDescentFlat (or variants) "
-                           "instead of IndexNNDescent directly"));
+                           "instead of IndexNNDescent directly");
 
     idx_t check_period =
         InterruptCallback::get_period_hint(d * rnndescent.search_L);
